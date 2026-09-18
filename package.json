@@ -1,0 +1,33 @@
+{
+  "name": "guia-01-arqsoftware",
+  "version": "1.0.0",
+  "description": "Proyecto de arquitectura de software",
+  "main": "src/server.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ademir-tec/guia-01-arqSoftware.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ademir-tec/guia-01-arqSoftware/issues"
+  },
+  "homepage": "https://github.com/ademir-tec/guia-01-arqSoftware#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
